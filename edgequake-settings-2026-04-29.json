@@ -1,0 +1,35 @@
+{
+  "version": "1.0",
+  "exportedAt": "2026-04-29T01:11:06.667Z",
+  "application": "EdgeQuake",
+  "settings": {
+    "theme": "system",
+    "language": "en",
+    "graphSettings": {
+      "showLabels": true,
+      "showEdgeLabels": false,
+      "nodeSize": "medium",
+      "edgeThickness": "medium",
+      "layout": "force",
+      "colorBy": "type",
+      "enableNodeDrag": true,
+      "highlightNeighbors": true,
+      "hideUnselectedEdges": false
+    },
+    "querySettings": {
+      "mode": "hybrid",
+      "topK": 10,
+      "maxTokens": 2048,
+      "temperature": 0.7,
+      "stream": true,
+      "enableRerank": true,
+      "rerankTopK": 10
+    },
+    "ingestionSettings": {
+      "enableGleaning": true,
+      "maxGleaning": 1,
+      "useLLMSummarization": true
+    },
+    "sidebarCollapsed": false
+  }
+}
