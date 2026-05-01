@@ -1,0 +1,190 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {
+    "hyperedges": [
+      {
+        "id": "intent_management_pipeline",
+        "label": "Intent Processing, Validation, and Execution Pipeline",
+        "nodes": [
+          "2505_01841v1_qlora_llm",
+          "2505_01841v1_hdtga",
+          "2508_06616v2_mamba_idn"
+        ],
+        "relation": "participate_in",
+        "confidence": "EXTRACTED",
+        "confidence_score": 0.95,
+        "source_file": "/home/william/UFRN/MESTRADO/TOPICOS/graphify_test/tepii-work-2/sources/2505.01841v1.pdf"
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "label": "Hierarchical Decision Transformer with Goal Awareness (HDTGA)",
+      "file_type": "paper",
+      "source_file": "/home/william/UFRN/MESTRADO/TOPICOS/graphify_test/tepii-work-2/sources/2505.01841v1.pdf",
+      "id": "2505_01841v1_hdtga",
+      "community": 1,
+      "norm_label": "hierarchical decision transformer with goal awareness (hdtga)"
+    },
+    {
+      "label": "QLoRA-tuned LLM for Intent Processing",
+      "file_type": "paper",
+      "source_file": "/home/william/UFRN/MESTRADO/TOPICOS/graphify_test/tepii-work-2/sources/2505.01841v1.pdf",
+      "id": "2505_01841v1_qlora_llm",
+      "community": 1,
+      "norm_label": "qlora-tuned llm for intent processing"
+    },
+    {
+      "label": "Mobile-LLaMA",
+      "file_type": "paper",
+      "source_file": "/home/william/UFRN/MESTRADO/TOPICOS/graphify_test/tepii-work-2/sources/Mobile-LLaMA.pdf",
+      "id": "mobile_llama_mobile_llama",
+      "community": 0,
+      "norm_label": "mobile-llama"
+    },
+    {
+      "label": "MAESTRO Collaborative Framework",
+      "file_type": "paper",
+      "source_file": "/home/william/UFRN/MESTRADO/TOPICOS/graphify_test/tepii-work-2/sources/Maestro_LLM-Driven_Collaborative_Automation_of_Intent-Based_6G_Networks.pdf",
+      "id": "maestro_llm_maestro_framework",
+      "community": 0,
+      "norm_label": "maestro collaborative framework"
+    },
+    {
+      "label": "Attention-based Hierarchical Reinforcement Learning",
+      "file_type": "paper",
+      "source_file": "/home/william/UFRN/MESTRADO/TOPICOS/graphify_test/tepii-work-2/sources/2406.06059v2.pdf",
+      "id": "2406_06059v2_attention_hrl",
+      "community": 3,
+      "norm_label": "attention-based hierarchical reinforcement learning"
+    },
+    {
+      "label": "IntAgent Framework",
+      "file_type": "paper",
+      "source_file": "/home/william/UFRN/MESTRADO/TOPICOS/graphify_test/tepii-work-2/sources/2601.13114v1.pdf",
+      "id": "2601_13114v1_intagent",
+      "community": 0,
+      "norm_label": "intagent framework"
+    },
+    {
+      "label": "Mamba-SSM for Intent-Driven Networks",
+      "file_type": "paper",
+      "source_file": "/home/william/UFRN/MESTRADO/TOPICOS/graphify_test/tepii-work-2/sources/2508.06616v2.pdf",
+      "id": "2508_06616v2_mamba_idn",
+      "community": 1,
+      "norm_label": "mamba-ssm for intent-driven networks"
+    },
+    {
+      "label": "Network Data Analytics Function (NWDAF)",
+      "file_type": "document",
+      "source_file": "/home/william/UFRN/MESTRADO/TOPICOS/graphify_test/tepii-work-2/sources/ts_123288v160400p.pdf",
+      "id": "ts_123288v160400p_nwdaf",
+      "community": 0,
+      "norm_label": "network data analytics function (nwdaf)"
+    },
+    {
+      "label": "LLM for Intent Extraction",
+      "file_type": "paper",
+      "source_file": "/home/william/UFRN/MESTRADO/TOPICOS/graphify_test/tepii-work-2/sources/2403.02238v2.pdf",
+      "id": "2403_02238v2_llm_intent",
+      "community": 2,
+      "norm_label": "llm for intent extraction"
+    },
+    {
+      "label": "Sustainable Multimodal Generative AI",
+      "file_type": "paper",
+      "source_file": "/home/william/UFRN/MESTRADO/TOPICOS/graphify_test/tepii-work-2/sources/s13638-025-02472-x.pdf",
+      "id": "s13638_025_02472_x_multimodal_genai",
+      "community": 2,
+      "norm_label": "sustainable multimodal generative ai"
+    }
+  ],
+  "links": [
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "/home/william/UFRN/MESTRADO/TOPICOS/graphify_test/tepii-work-2/sources/2505.01841v1.pdf",
+      "_src": "2505_01841v1_hdtga",
+      "_tgt": "2505_01841v1_qlora_llm",
+      "source": "2505_01841v1_hdtga",
+      "target": "2505_01841v1_qlora_llm"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "/home/william/UFRN/MESTRADO/TOPICOS/graphify_test/tepii-work-2/sources/2508.06616v2.pdf",
+      "_src": "2508_06616v2_mamba_idn",
+      "_tgt": "2505_01841v1_hdtga",
+      "source": "2505_01841v1_hdtga",
+      "target": "2508_06616v2_mamba_idn"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "/home/william/UFRN/MESTRADO/TOPICOS/graphify_test/tepii-work-2/sources/2403.02238v2.pdf",
+      "_src": "2403_02238v2_llm_intent",
+      "_tgt": "2505_01841v1_qlora_llm",
+      "source": "2505_01841v1_qlora_llm",
+      "target": "2403_02238v2_llm_intent"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/home/william/UFRN/MESTRADO/TOPICOS/graphify_test/tepii-work-2/sources/Mobile-LLaMA.pdf",
+      "_src": "mobile_llama_mobile_llama",
+      "_tgt": "ts_123288v160400p_nwdaf",
+      "source": "mobile_llama_mobile_llama",
+      "target": "ts_123288v160400p_nwdaf"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "/home/william/UFRN/MESTRADO/TOPICOS/graphify_test/tepii-work-2/sources/Maestro_LLM-Driven_Collaborative_Automation_of_Intent-Based_6G_Networks.pdf",
+      "_src": "maestro_llm_maestro_framework",
+      "_tgt": "2601_13114v1_intagent",
+      "source": "maestro_llm_maestro_framework",
+      "target": "2601_13114v1_intagent"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/home/william/UFRN/MESTRADO/TOPICOS/graphify_test/tepii-work-2/sources/2601.13114v1.pdf",
+      "_src": "2601_13114v1_intagent",
+      "_tgt": "ts_123288v160400p_nwdaf",
+      "source": "2601_13114v1_intagent",
+      "target": "ts_123288v160400p_nwdaf"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "/home/william/UFRN/MESTRADO/TOPICOS/graphify_test/tepii-work-2/sources/s13638-025-02472-x.pdf",
+      "_src": "s13638_025_02472_x_multimodal_genai",
+      "_tgt": "2403_02238v2_llm_intent",
+      "source": "2403_02238v2_llm_intent",
+      "target": "s13638_025_02472_x_multimodal_genai"
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "intent_management_pipeline",
+      "label": "Intent Processing, Validation, and Execution Pipeline",
+      "nodes": [
+        "2505_01841v1_qlora_llm",
+        "2505_01841v1_hdtga",
+        "2508_06616v2_mamba_idn"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "/home/william/UFRN/MESTRADO/TOPICOS/graphify_test/tepii-work-2/sources/2505.01841v1.pdf"
+    }
+  ]
+}

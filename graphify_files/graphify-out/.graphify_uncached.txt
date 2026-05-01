@@ -1,0 +1,12 @@
+/home/william/UFRN/MESTRADO/TOPICOS/graphify_test/tepii-work-2/sources/2505.01841v1.pdf
+/home/william/UFRN/MESTRADO/TOPICOS/graphify_test/tepii-work-2/sources/Mobile-LLaMA.pdf
+/home/william/UFRN/MESTRADO/TOPICOS/graphify_test/tepii-work-2/sources/Maestro_LLM-Driven_Collaborative_Automation_of_Intent-Based_6G_Networks.pdf
+/home/william/UFRN/MESTRADO/TOPICOS/graphify_test/tepii-work-2/sources/2406.06059v2.pdf
+/home/william/UFRN/MESTRADO/TOPICOS/graphify_test/tepii-work-2/sources/2601.13114v1.pdf
+/home/william/UFRN/MESTRADO/TOPICOS/graphify_test/tepii-work-2/sources/s11432-024-4337-1.pdf
+/home/william/UFRN/MESTRADO/TOPICOS/graphify_test/tepii-work-2/sources/s13638-025-02472-x.pdf
+/home/william/UFRN/MESTRADO/TOPICOS/graphify_test/tepii-work-2/sources/985646264-Towards-Intent-based-Network-Management-for-the-6G-System-Adopting-Multimodal-Generative-AI.pdf
+/home/william/UFRN/MESTRADO/TOPICOS/graphify_test/tepii-work-2/sources/2508.06616v2.pdf
+/home/william/UFRN/MESTRADO/TOPICOS/graphify_test/tepii-work-2/sources/ts_123288v160400p.pdf
+/home/william/UFRN/MESTRADO/TOPICOS/graphify_test/tepii-work-2/sources/2021-07-13 RIC-xApp-rApp players.pdf
+/home/william/UFRN/MESTRADO/TOPICOS/graphify_test/tepii-work-2/sources/2403.02238v2.pdf
