@@ -1,4 +1,4 @@
-# Gestão autônoma de redes baseada em intenção (intent-based networking) usando LLMs e arquiteturas multi-agente
+# Estudo sobre gestão autônoma de redes baseada em intenção (intent-based networking) usando LLMs e arquiteturas multi-agente
 
 
 PPGEEC2327 - TÓPICOS ESPECIAIS EM PROCESSAMENTO INTELIGENTE DA INFORMAÇÃO - T01 (2026.1 - 5T3456)
@@ -9,8 +9,18 @@ Discentes:
 - Angelo Leite Medeiros de Góes (20251012333)
 - William Marcelino Costa do Nascimento (20251026230)
 
-Este trabalho investiga a automação da gestão de redes por meio de *Intent-Based Networking (IBN)* com o uso de modelos de linguagem (LLMs) e arquiteturas multi-agente. A partir de um artigo base, foi realizada uma exploração orientada da literatura, conectando-o a outros 12 documentos relevantes em áreas como 5G/6G, NWDAF e comunicação móvel, com o objetivo de entender como esses temas convergem em frameworks de automação baseados em intenção. A análise foi fundamentada em diferentes tipos de fontes, incluindo artigos científicos, documentação técnica e posts de blogs especializados, e apoiada por ferramentas como Consensus, EdgeQuake, Graphify e NotebookLM para identificar relações entre conceitos e possíveis lacunas na literatura.
+Este trabalho investiga a automação da gestão de redes por meio de *Intent-Based Networking (IBN)* com o uso de modelos de linguagem (LLMs) e arquiteturas multi-agente. 
 
+O objetivo foi investigar o tema utilizando e comparando ferramentas de knowledge graph. A partir de um artigo base, foi realizada uma exploração orientada da literatura, conectando-o a outros 12 documentos relevantes em áreas como 5G/6G, NWDAF e comunicação móvel, com o objetivo de entender como esses temas convergem em frameworks de automação baseados em intenção. 
+
+A análise foi fundamentada em diferentes tipos de fontes, incluindo artigos científicos, documentação técnica e posts de blogs especializados, e apoiada por ferramentas como Consensus, EdgeQuake, Graphify e NotebookLM para identificar relações entre conceitos e possíveis lacunas na literatura.
+
+## O que tem no repositório:
+- [`TEPII - Apresentação trabalho 2 - 04_26.pdf`](TEPII%20-%20Apresentação%20trabalho%202%20-%2004_26.pdf): Versão em PDF da apresentação.
+- [`TEPII - Apresentação trabalho 2 - 04_26.pptx`](TEPII%20-%20Apresentação%20trabalho%202%20-%2004_26.pptx): Versão editável da apresentação.
+- [`edgequake/`](edgequake/): Saídas do EdgeQuake usadas na exploração.
+- [`sources/`](sources/): Conjunto de PDFs com o artigo-base e os trabalhos relacionados.
+- [`graphify_files/`](graphify_files/): Saídas do Graphify para análise e visualização dos dados.
 
 ## Links e referências:  
 1. [RIC, xApps, rApps: A Comprehensive Guide to the Key Players](https://stlpartners.com/articles/network-innovation/ric-xapps-rapps-who-are-the-key-players/)
@@ -36,3 +46,5 @@ through sustainable multimodal generative AI](https://link.springer.com/article/
 12. [5G; 
 Architecture enhancements for 5G System (5GS) 
  to support network data analytics services](https://www.etsi.org/deliver/etsi_ts/123200_123299/123288/16.04.00_60/ts_123288v160400p.pdf)
+
+
